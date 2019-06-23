@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document constructor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img alt="Цифровой прорыв" src="/assets/img/logo.svg">
+    </header>
+    <div class="container">
+        <div id="app">
+            <h1>Генератор документов</h1>
+            <form action="?" method="GET" class="choose" onchange="getFile()">
+                <label>
+                    Выберите шаблон:
+                    <select name="file">
+                        <option disabled selected></option>
+                        <option value="/docs/diplom.xml">Диплом (титульный лист)</option>
+                    </select>
+                </label>
+            </form>
+        </div>
+    </div>
+    <script src="vendors/jquery-3.4.1.min.js"></script>
+    <script src="vendors/jquery.binarytransport.js"></script>
+    <script src="vendors/FileSaver.min.js"></script>
+    <script src="vendors/jszip.min.js"></script>
+    <script src="vendors/xml2json.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

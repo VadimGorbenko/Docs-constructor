@@ -1,0 +1,65 @@
+.header {
+    background: rgb(52, 11, 158);
+    background: linear-gradient(90deg, rgba(52, 11, 158, 1) 0%, rgba(255, 0, 168, 1) 100%);
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    background-color: #f0ecec;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px gray;
+    padding: 20px 0;
+    text-align: center;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.wizard-form label {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+select, input{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+
+.wizard-form label input {
+    margin-top: 5px;
+}
+
+.wizard-form button {
+    width: 100%;
+    border: none;
+    background-color: #9406a3;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
